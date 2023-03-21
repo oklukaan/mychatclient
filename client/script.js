@@ -160,7 +160,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://localhost:500', {
+    const response = await fetch('https://server-w6wp.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
