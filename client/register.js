@@ -11,7 +11,7 @@ async function handleSubmit(event) {
   // burada kayıt işlemini gerçekleştirin
   console.log(`Registered user: ${username}, password: ${password}`);
 
-  const response = await fetch('https://localhost:500/register', {
+  const response = await fetch('https://server-w6wp.onrender.com/register', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',

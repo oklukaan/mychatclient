@@ -45,7 +45,7 @@ export function account(element,hea){
  
              try {
  
-                 const response=await fetch('https://localhost:500/update',{
+                 const response=await fetch('https://server-w6wp.onrender.com/update',{
                      method: 'POST',
                      headers: {
                          'Content-Type': 'application/json',

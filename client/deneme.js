@@ -109,7 +109,7 @@ export function deneme(element) {
       
       try {
 
-        const response = await fetch('https://localhost:500/register', {
+        const response = await fetch('https://server-w6wp.onrender.com/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -168,7 +168,7 @@ export function deneme(element) {
       
       try {
 
-        const response = await fetch('https://localhost:500/login', {
+        const response = await fetch('https://server-w6wp.onrender.com/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
